@@ -4,7 +4,7 @@ from perfect_number import is_perfect
 
 class TestPerfectNumber(unittest.TestCase):
     def test_perfect_number(self):
-        self.assertTrue(is_perfect(16))
+        self.assertTrue(is_perfect(6))
 
     def test_not_perfect_number(self):
         self.assertFalse(is_perfect(7))
